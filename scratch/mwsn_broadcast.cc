@@ -378,6 +378,8 @@ int main(int argc, char *argv[]) {
         anim.SetConstantPosition(clusterHeads.Get(i), 30.0 * i, 30.0);
     }
 
+    std::cout<<"End of ALERT Broadcast Simulation"<<std::endl;
+
     // Run simulation
     Simulator::Stop(Seconds(simulationTime));
     Simulator::Run();
